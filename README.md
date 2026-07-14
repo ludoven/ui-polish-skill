@@ -111,3 +111,7 @@ ui-polish-skill/
 ```
 
 详细行为规则见 [SKILL.md](SKILL.md)。
+
+## 开源许可证
+
+本项目基于 [MIT License](LICENSE) 开源。
