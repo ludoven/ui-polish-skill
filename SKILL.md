@@ -1,6 +1,6 @@
 ---
 name: ui-polish
-description: 跨平台 UI 审查、优化、美化、重构与截图复刻工作流。用于用户要求审查截图或代码、优化界面、消除 AI 味/廉价感/模板感、提升专业感、按审查报告改 UI、只改 UI 不改业务逻辑，或根据截图用 Web/React/Vue/HTML CSS 进行 1:1、像素级、原尺寸、静态高保真复刻并在确认后继续产品化实现的场景。适用于 Android Compose、Compose Multiplatform、Flutter、SwiftUI/iOS/macOS、Web、桌面端 Electron/Tauri/Qt/WPF、移动端、平板、TV 和大屏 UI。
+description: 跨平台 UI 设计实现、审查、优化、美化、重构与截图复刻工作流。用于用户要求根据截图或 UI 设计稿实现新界面、审查截图或代码、优化已有界面、消除 AI 味/廉价感/模板感、提升专业感、按审查报告改 UI、只改 UI 不改业务逻辑，或根据截图用 Web/React/Vue/HTML CSS 进行 1:1、像素级、原尺寸、静态高保真复刻并在确认后继续产品化实现的场景。适用于 Android Compose、Compose Multiplatform、Flutter、SwiftUI/iOS/macOS、Web、桌面端 Electron/Tauri/Qt/WPF、移动端、平板、TV 和大屏 UI。
 ---
 
 # UI Polish Skill
@@ -29,7 +29,7 @@ description: 跨平台 UI 审查、优化、美化、重构与截图复刻工作
 输入方式：触摸 / 鼠标 / 键盘 / 触控板 / 遥控器
 屏幕形态：手机 / 折叠屏 / 平板 / 桌面窗口 / 宽屏 / TV
 设计基础：已有 Design Tokens / Theme / 组件库 / 品牌规范 / 系统组件
-用户目标：先审查 / 直接改代码 / 输出任务清单 / 验证已有改版
+用户目标：从设计稿实现 / 先审查 / 直接改代码 / 输出任务清单 / 验证已有改版
 复刻目标：仅参考风格 / 静态高保真复刻 / 复刻确认后产品化
 ```
 
@@ -38,6 +38,7 @@ description: 跨平台 UI 审查、优化、美化、重构与截图复刻工作
 ## 模式选择
 
 - 用户要求“审查”“看看哪里廉价”“消除 AI 味但先分析”：进入审查模式，不直接改代码。
+- 用户提供截图或 UI 设计稿并要求在指定技术栈中实现界面，但未要求静态高保真 Web 复刻：进入实现模式。
 - 用户要求“直接优化当前页面”“按审查报告改代码”“可以改”：进入实现模式，但先做极短审查和文件定位。
 - 用户提供截图并明确要求“复刻”“还原”“一模一样”“1:1”“像素级”“原尺寸”或“静态高保真 Web”：进入复刻模式。
 - 用户只说“参考截图优化”“借鉴风格”或“做得更好看”：进入优化模式，不自动按 1:1 复刻处理。
@@ -50,7 +51,7 @@ description: 跨平台 UI 审查、优化、美化、重构与截图复刻工作
 按任务需要读取对应参考文件，避免一次加载无关细节：
 
 - 审查截图、页面或现有 UI：读 [references/audit-checklist.md](references/audit-checklist.md)。
-- 修改代码、输出实现结果或验收：读 [references/implementation-playbook.md](references/implementation-playbook.md)。
+- 根据截图或设计稿实现新 UI、修改代码、输出实现结果或验收：读 [references/implementation-playbook.md](references/implementation-playbook.md)。
 - 根据截图实现静态高保真 Web 页面：读 [references/replication-playbook.md](references/replication-playbook.md)。
 - 涉及具体平台或跨端框架：读 [references/platform-adapters.md](references/platform-adapters.md)。
 
