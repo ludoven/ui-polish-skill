@@ -14,7 +14,16 @@
 
 ## 安装
 
-将仓库克隆到 Codex Skills 目录：
+复制下面这段内容发送给 Codex：
+
+```text
+请从这个 GitHub 仓库安装 ui-polish Skill：
+https://github.com/ludoven/ui-polish-skill
+```
+
+Codex 会将 Skill 安装到本地 Skills 目录。安装完成后，从下一轮对话开始使用。
+
+### 手动安装（备用）
 
 ```bash
 git clone https://github.com/ludoven/ui-polish-skill.git \
